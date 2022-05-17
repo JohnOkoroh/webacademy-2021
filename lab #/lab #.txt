@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>base html document</title>
+	</head>
+	<body>
+
+		<h1>TAEHS</h1>
+		<h2> web development </h2>
+		<h3> 10th grade </h3>
+		<h4> lab # </h4>
+		<h5> learning material </h5>
+		<h6> student name </h6> 
+		<p> content </p>
+
+	</body>
+</html>

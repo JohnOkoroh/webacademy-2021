@@ -1,0 +1,23 @@
+body{
+  background-color: gray;
+  text-align: center;
+}
+div{
+  background-color: white;
+  border: 2px solid #4287f5;
+  padding:20px;
+  border-radius: 10px;
+  margin: 10px;
+  color:#4287f5;
+}
+p{
+  background-color: black;
+  border: 3px solid;
+  padding:20px;
+  border-radius: 10px;
+}
+button{
+  background-color: black;
+  color:#4287f5;
+  border: 3px solid #4287f5;
+}

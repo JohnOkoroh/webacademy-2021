@@ -1,0 +1,21 @@
+#pp{
+  color: blue;
+  border: 2px solid white;
+  position:relative;
+  left:675px;
+  background-color: #d7b3ff;
+  padding:20px;
+  height:200px;
+  width:200px;
+  margin:10px;
+}
+
+button {
+  color:#00cbe6;
+  background-color: #a1f4ff;
+}
+button:hover{
+  background-color:#9f85ff;
+  color:#6338ff;
+  border-color:#573eb5;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>lab3</title>
+	</head>
+	<body>
+
+		<h1>TAEHS</h1>
+		<h2> web development </h2>
+		<h3> 10th grade </h3>
+		<h4> lab # </h4>
+		<h5> learning material </h5>
+		<h6>HYPERLINKS</h6> 
+		
+		<p> content </p>
+			<a href=http://www.taehs.org>click here to visit my HS</a>
+
+	</body>
+</html>

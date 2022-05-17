@@ -1,0 +1,144 @@
+div{
+  background-color: white;
+  border: 2px solid #4287f5;
+  padding:10px;
+  border-radius: 20px;
+  margin: 5px;
+  color:#4287f5;
+}
+/*tells the webpage to add no magring or padding and changes the font family*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"Helvetica", sabs-serif;
+}
+/* changes the background color */
+body{
+  background-color:rgba(32,43,57,1);
+  height:100vh;
+  weight:100vw;
+  display:block;
+  position:relative;
+}
+/*changes the color of the selected element, also the hieght,width,and the position of it*/
+.wrapper{
+  display:block;
+  background-color:#39516b;
+  width:600px;
+  height:600px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  padding:4px;
+  outline:#202b39solid 7px;
+  outline-offset:-15px;
+  overflow:hidden;- 
+}
+/*change the width and color of the selected element*/
+.section_userform{
+  width:75%;
+  display:block;
+  margin: 0 auto;
+  color:#ffffff;
+}
+/*changes the color, width,textalign and font size of the selected element*/
+.input_label{
+  width:35%;
+  test-align:right;
+  font-size:1.5em;
+  color:rgba(173,220,238,1);
+}
+/*adds a magin and width to the selected element*/
+.break{
+  display:block;
+  width:100%;
+  margin:2em 0;
+}
+/*changes the width, hieght, background color, border color, and color of the selected element*/
+.textbox{
+  width:50%;
+  height:1.8em;
+  box-sizing:content-box;
+  background-color:rgba(41,56,4,1);
+  border-color:rgba(173,220,238,1);
+  padding-left:1em;
+  color:white;
+}
+/*Show there no margin, make the fount uppercase, adds a padding, the fontsize, border witdh-radius-and style of the selected element*/
+.button{
+  display:block;
+  margin:none;
+  padding:0.5em 2.5em;
+  text-transform:uppercase;
+  background-color:rgba(41,56,4,1);
+  border-color:rgba(173,220,238,1);
+  font-size:1.3em;
+  border-width:3px;
+  border-radius:3px;
+  border-style:solid;
+  padding-left:1em;
+  color:white;
+}
+/*when hoving over the button changes the color, background color, and border color*/
+.button:hover{
+  background-color:rgba(216,241,255,1);
+  color:rgba(56,77,102,1);
+  border-color:rgba(41,56,74,1);
+  transform:scale(1.05);
+}
+/*sets the element center*/
+.buttonWrapper{
+  display:grid;
+  justify-content:center;
+}
+/*text align centerd and changes the color and adds a margin*/
+.section_info{
+  text-align:center;
+  margin:1em;
+  color:rgba(173,220,238,1);
+}
+/*changes fount size*/
+.section_info h1{
+  font-size:5em;
+}
+/*changes border color width and adda margin to the button*/
+#line{
+  border-color:rgba(173,220,238,1);
+  width:80%;
+  margin-button:4em;
+}
+/*changes the width and text align left and also changes the color and font size*/
+.result{
+  width:45%;
+  text-align:left;
+  display:inline-block;
+  font-size:1.5em;
+  color:#fff;
+}
+/*chnages the width text align to right and also color and font size*/
+.result_label{
+  width:40%;
+  text-align:right;
+  display:inline-block;
+  font-size:1.5em;
+  color:rgba(173,220,238,1);
+}
+/*does not work*/
+#before{
+  opacity:1;
+  display:block;
+}
+#after{
+  display:none;
+  opacity:0;
+}
+.button:focus #after{
+  display:block;
+  opacity:1;
+  z-index:-1;
+}
+#input_username_button:focus #before{
+  display:hidden;
+  opacity:0;
+}

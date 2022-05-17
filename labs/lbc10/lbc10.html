@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" href="cherrys(2).png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internal CSS</title>
+  <style>
+    
+    /*the * works as universal selector for CSS*/
+    *{
+      box-sizing:border-box;
+    }
+    /*A CSS selector selects the HTML element(s) you want to style. Simple selectors (select elements based on name, id, class)*/
+    /*any html tag can be a selector. For example*/
+    body{
+      background-repeat:no-repeat;
+      background-image:linear-gradient(to left,black,blue,purple);
+      background-image:url("https://i.pinimg.com/originals/76/54/74/765474518b57a68b580ac79698548d24.jpg");
+      Background-size:100%;  
+    }
+    /*The class selector selects html elements with a specific class attribute.
+    To select elements with a specific class, write a period (.) character, followed by class name.*/
+    .header{
+      background-image:repeating-conic-gradient(#006abd 15%, #008fff 30%, #d4ecff 35%);
+      text-align: center;
+      padding:20px;
+      margin:5px;
+      color:white;
+    }
+    /*The id selector uses the id attribute of an html element to select a specific element.
+    
+    The id of an element is unique within a page, so the id selctor is used to select on unique element!
+    
+    To select an element with a specific id, write a hash (#) character, followed by the id of the element.*/
+    .topnav{
+      background-color:purple;
+      overflow:hidden;
+    }
+    .topnav a{
+      color: whitesmoke;
+      float:left;
+      display:block;
+      text-align: center;
+     padding: 14px 16px;
+    }
+    .topnav a:hover{
+      background-color:rgb(208, 127, 255);
+     color:rgb(37, 0, 54);
+    }
+    h1{
+      color:rgb(177, 93, 255);
+    }
+    #lname{
+      color:white;
+    }
+    #demobox h1{
+       color:white;
+    }
+    /* The grouping selector selects all the html elements with the same style definitions.
+    It will be better to group the selectors, to minimize the code. To group selectors, separate each selector with a comma.*/
+
+    /*CSS Combinators
+    A CSS selector can contain more than one simple selector.
+    Between the simple selectors, we can include a combinator.
+    There are four different combinators in CSS:
+    descendant selector (space)
+    child selector (>)
+    adjacent sibling selector (+)
+    general sibling selector (~)*/
+  .header h2{
+color:#70fff1;
+  }
+.header h4{
+  color:#00d6cb;
+}
+.header h3{
+  color:#00ffbb;
+}
+/*A pseudo-class is used to define a special state of an element. For example, it can be used to: Stlye an element when a user mouses over is style visited and unvisited links differently style an element when it gets focus*/
+a:link{
+  color:#ddabff;
+}
+a:visited{
+  color:white;
+}
+/*The [attribute] selector is used to select elements with a specific attribute. the following example selects all <a> elements with a target attribute*/
+a[target]{
+  background-color: blue;
+}
+  </style>
+</head>
+<body>
+ <div class="topnav">
+	<a href="../lab1/lab1.html">Lab # 1 </a>
+  <a href="../lab2/lab2.html">Lab # 2 </a>
+  <a href="../lab3/lab 3.html">Lab # 3 </a>
+  <a href="../lab4/lab4.html">Lab # 4 </a>
+  <a href="../lab5/lab5.html">Lab # 5 </a>
+  <a href="../lab6/lab6.html">Lab # 6 </a>
+  <a href="../lab7/lab7.html">Lab # 7 </a>
+  <a href="../lab8/lab8.html">Lab # 8 </a>
+  <a href="../lab9/lab9.html">Lab # 9 </a>
+  <a href="../lbc10/lbc10.html">Lab # 10 </a>
+  <a href="../lbc11/lbc11.html">Lab # 11 </a>
+  <a href="../lbc12/lbc12.html">Lab # 12 </a>
+  <a href="../lbc13/lbc13.html">Lab # 13 </a>
+  <a href="../lbc14/lbc14.html">Lab # 14 </a>
+  <a href="../lbc15/lbc15.html">Lab # 15 </a>
+  <a href="../lbc16/lbc16.html">Lab # 16 </a>
+  <a href="../lbc17/lbc17.html">Lab # 17 </a>
+  <a href="../lbc18/lbc18.html">Lab # 18 </a>
+  <a href="../lbc19/lbc19.html">Lab # 19 </a>
+  <a href="../lbc20/lbc20.html">Lab # 20 </a>
+  </div> 
+  <div class="header">
+	<h1>TAEHS</h1>
+	<h2>WEB DESIGN ACADEMY</h2>
+	<h3>Lab 10 Internal CSS</h3>
+  <h4>John Okoroh</h4>
+</div>
+<div id="demoBox">
+ <center>
+ <h1>John</h1>
+ <h1>Okoroh</h1>
+ <h1>2/9/22</h1> 
+</div>
+ 
+</body>
+</html>
